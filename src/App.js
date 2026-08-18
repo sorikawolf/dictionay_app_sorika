@@ -6,7 +6,16 @@ function App() {
     <div className="App">
       <header className="App-header">Welcome to my dictionary app!</header>
       <Dictionary />
-      <footer>Coded by Sorika Wolf</footer>
+      <footer>
+        Coded by Sorika Wolf and open-sourced on{" "}
+        <a
+          href="https://github.com/sorikawolf/dictionay_app_sorika"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </a>
+      </footer>
     </div>
   );
 }
