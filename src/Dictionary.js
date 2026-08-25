@@ -31,14 +31,18 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary text-center">
-      <form onSubmit={search}>
-        <input
-          type="search"
-          autoFocus={true}
-          placeholder="Enter a word..."
-          onChange={handleKeywordChange}
-        />
-      </form>
+      <section>
+        <h4>What definition are you looking for?</h4>
+        <form onSubmit={search}>
+          <input
+            type="search"
+            autoFocus={true}
+            placeholder="Enter a word..."
+            onChange={handleKeywordChange}
+          />
+        </form>
+        Suggestions: sunset, sunrise, morning...
+      </section>
       <Results results={results} />
     </div>
   );

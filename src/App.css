@@ -1,17 +1,20 @@
 .App {
   color: #2a4326;
-  background: #dae5d8;
-  max-width: 950px;
+  background: #edefec;
   margin: 20px auto;
-  border-radius: 5px;
   padding: 20px 0;
-  box-shadow: 18px 9px 39px -3px rgba(134, 167, 141, 0.75);
 }
 
 .App-header {
   text-align: center;
   font-weight: bold;
   font-size: 60px;
+  background: #dae5d8;
+  border-radius: 10px;
+  max-width: 90%;
+  margin: 20px auto;
+  padding: 30px 0;
+  box-shadow: 18px 9px 39px -3px rgba(209, 128, 159, 0.75);
 }
 
 .App footer {
@@ -20,6 +23,6 @@
 }
 
 .App a {
-  color: #ef7ca8;
+  color: rgb(239, 124, 168);
   font-weight: 700;
 }
