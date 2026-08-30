@@ -8,7 +8,7 @@ export default function Results(props) {
     return (
       <div className="Results">
         <section>
-          <h2 className="Word text-capitalize fw-bold">{props.results.word}</h2>
+          <h2 className="Word fw-bold">{props.results.word}</h2>
           <h3 className="Phonetic fw-light fst-italic">
             {props.results.phonetic}
           </h3>

@@ -48,6 +48,7 @@ export default function Dictionary(props) {
             <input
               type="search"
               autoFocus={true}
+              defaultValue={props.defaultKeyword}
               placeholder="Enter a word..."
               onChange={handleKeywordChange}
             />
