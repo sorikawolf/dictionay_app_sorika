@@ -1,3 +1,9 @@
-.Synonyms {
-  font-style: italic;
+.synonymList {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.synonyms strong {
+  font-size: 16px;
+  font-weight: 500;
 }

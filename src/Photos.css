@@ -1,0 +1,12 @@
+.Photos .row {
+  padding: 0 20px;
+}
+
+.Photos .individualPhoto {
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.Photos .individualPhoto:hover {
+  opacity: 80%;
+}

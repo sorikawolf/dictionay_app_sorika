@@ -1,3 +1,6 @@
 .example {
   font-style: italic;
+  font-size: 18px;
+  font-weight: 400px;
+  color: rgb(238, 80, 140);
 }
